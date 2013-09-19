@@ -1,0 +1,31 @@
+option analize...
+confguration analyze... : ysd-path-planner.conf
+YPSpur max velocity : 0.7
+YPSpur max acceleration : 2
+YPSpur max angle velocity : 2
+YPSpur max angle acceleration : 3
+YPSpur Spur_near_pos detection angle : 3
+restart que pipe path : [string data]
+Pre-Crash Safety Margin x : 0.6
+Pre-Crash Safety Margin y : 0.3
+Potential method repulsion detection distance : 0
+Potential method gravity gain : 0
+Potential method repulsion gain : 0
+Potential method launch time : 0
+sokuiki_fs SSM id : 0
+route file opened : Release/keiro.dat
+1 route found
+route[0]: 5 waypoints
+waypoint[0][  0] x:0.000	y:0.000	 way:1 stop:0 goal:0
+waypoint[0][  1] x:2.000	y:0.000	 way:1 stop:0 goal:0
+waypoint[0][  2] x:2.000	y:1.000	 way:1 stop:0 goal:0
+waypoint[0][  3] x:0.000	y:1.000	 way:1 stop:0 goal:0
+waypoint[0][  4] x:0.000	y:0.000	 way:1 stop:0 goal:0
+スタートの位置、姿勢
+原点からスタート : waypoint[0][  0] : 0.000000 0.000000 0.000000 pi
+Initialize FINISHED.
+Operation START...
+waypoint[0][  1] : 2.000000, 0.000000, 0.000000 pi に向かいます
+Spur-free mode
+1.安全が確認された場合、Gキーを押してください
+ctrl-C!

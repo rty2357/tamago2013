@@ -1,0 +1,4 @@
+#!/bin/bash
+. launcher.opt
+echo ./Release/ysd-path-planner ${OPTION} $@
+ ./Release/ysd-path-planner ${OPTION} $@
